@@ -16,3 +16,21 @@
 .ex-2-square:active{
     width: 100%;
 }
+
+/* Esercizio 3 */
+.ex-3-square{
+    transition: all 0.5s;
+}
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+
+/* Esercizio 4 */
+.ex-4-square{
+    transition: all 1.5s;
+}
+.ex-4-square:hover{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Esercizio 5  */
