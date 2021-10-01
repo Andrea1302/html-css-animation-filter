@@ -34,3 +34,17 @@
 }
 
 /* Esercizio 5  */
+.ex-5-square{
+    transition: all 0.5s;
+}
+.ex-5-square:hover{
+    transform: scale(2.3);
+}
+.ex-5-square:active{
+    transform: scale(0.1);
+}
+
+/* Esercizio 6 */
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
