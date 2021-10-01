@@ -65,3 +65,31 @@
     filter: invert(0.9) contrast(0.9);
     border-radius: 10px;
 }
+
+/* Esercizio 9  */
+.ex-9-img{
+    transition: all 2s;
+}
+.ex-9-img:hover{
+    transform: scale(1.5);
+    filter: grayscale(0.5) contrast(0.7);
+    border-radius: 10px;
+}
+
+/* Esercizio 10  */
+.ex-10-icon{
+    animation-name: ruota;
+    animation-iteration-count: infinite;
+    animation-duration: 2000ms;
+    animation-timing-function: linear;
+}
+@keyframes ruota {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
